@@ -23,6 +23,7 @@ header h1 {
   margin: 0;
   display: inline;
 }
+
 header a {
   text-decoration: none;
   color: #fce138;
@@ -78,7 +79,6 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
 
 /* Hero Form Style Start */
 .hero-form {
@@ -126,27 +126,10 @@ section {
   width: 100%;
   margin: 2px 0 15px 0;
 }
+
 .form-label {
   padding: 0px 5px;
 }
 
-.form-label2 {
-  padding: 0px 5px;
-}
-/*
-#email {
-  padding: 8px;
-  width: 100%;
-  border: #024e76;
-
-}
-#phone {
-  padding: 8px;
-  width: 100%;  
-}
-
-#name {
-  padding: 8px;
-  width: 100%;  
-}
-*/
+/* Hero Form Style End */
+/* Hero Style End */
