@@ -267,4 +267,10 @@ section {
   color: #fce138;
 }
 
+footer img {
+  width: 5%;
+  position: relative;
+  top: 20px;
+}
+
 /* REACH OUT STYLES END */
