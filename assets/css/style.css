@@ -13,11 +13,11 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 35px;
-  background-color: #39a6b2;
 }
 
 header h1 {
@@ -56,11 +56,11 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
+  background: #fce138;
+  padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #fce138;
-  padding: 40px 35px;
   width: 100%;
 }
 
@@ -87,12 +87,12 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -206,22 +206,6 @@ section {
   flex: 1 30%;
 }
 
-.step-text {
-  flex: 12;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-  
-}
-
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
-}
-
 .step-info {
   flex: 2 70%;
   display: flex;
@@ -234,9 +218,25 @@ section {
   margin-right: 20px;
 }
 
-.step-img img{
+.step-img img {
   max-width: 100%;
 }
+
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -276,14 +276,16 @@ section {
 
 .trainer-bio p {
   font-size: 17px;
-
 }
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
-
   background: #024e76;
+}
+
+.contact h2 {
+  color: #fce138;
 }
 
 .contact-info {
@@ -297,16 +299,12 @@ section {
   margin: 15px;
 }
 
-.contact h2 {
-  color: #fce138;
-}
-
 .contact-info iframe {
-height: 400px;
+  height: 400px;
 }
 
 .contact-info div {
-   color: white;
+  color: white;
 }
 
 .contact-info h3 {
@@ -341,6 +339,7 @@ height: 400px;
   padding: 15px 0;
   font-size: 16px;
 }
+
 .contact-info a {
   color: #fce138;
 }
